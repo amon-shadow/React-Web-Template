@@ -1,0 +1,176 @@
+/* button css */
+.btn {
+    height: 40px;
+    padding: 8px 15px;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    border: none;
+  }
+  .btn .MuiSvgIcon-root {
+    font-size: 19px;
+    margin-right: 10px;
+  }
+  .btn span + .MuiSvgIcon-root {
+    font-size: 20px;
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+  .btn:focus{
+    outline: none;
+    box-shadow: none;
+  }
+  .btn-orange {
+    color: #fff;
+    background: #f7931e;
+    background: -webkit-linear-gradient(to right, #f7931e, #de5811, #f7931e);
+    background: linear-gradient(to right, #f7931e, #de5811, #f7931e);
+    background-size: 200% auto;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.5s all !important;
+    -webkit-transition: 0.5s all !important;
+  }
+  .btn-orange:hover {
+    color: #fff;
+    background-position: right center;
+  }
+
+  .btn-blue {
+    background: #006cc9;
+    /* border: solid 2px #ebeff3; */
+    background-image: -webkit-linear-gradient(to right, #006cc9 ,#145288, #006cc9);
+    background-image: linear-gradient(to right,#006cc9 ,#145288, #006cc9);
+    background-size: 200% auto;
+    transition: 0.5s all !important;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+    -webkit-transition: 0.5s all !important;
+    color: #fff;
+  }
+  .btn-blue:hover {
+    color: #fff;
+    background-position: right center;
+  }
+
+  .btn-detail {
+    min-width: 80px;
+    background: #f9f9f9;
+    background-size: 200% auto;
+    transition: 0.5s all !important;
+    -webkit-transition: 0.5s all !important;
+    height: auto;
+    background-image: linear-gradient(to bottom, #f9f9f9, #eaeff3);
+    color: #133751;
+  }
+  .btn-detail:hover {
+    color: #fff;
+    background: #f7931e;
+    background: -webkit-linear-gradient(to right, #f7931e, #de5811, #f7931e);
+    background: linear-gradient(to right, #f7931e, #de5811, #f7931e);
+    background-size: 200% auto;
+    background-position: right center;
+  }
+  .table-btn .btn-detail{
+    font-size: 13px;
+    line-height: 1.15;
+    border-radius: 18px;
+    border: solid 1px #ffffff;
+  }
+.permission-btn{
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.icon-space{
+  margin-right: 13px;
+}
+.action-btn{
+  padding: 2px 3px;
+  min-width: 36px;
+  height: 36px;
+  border: solid 1px #ffffff;
+  background-image: linear-gradient(to bottom, #f9f9f9, #eaeff3);
+}
+.action-btn .MuiSvgIcon-root{
+  margin-right: 0;
+  font-size: 24px;
+}
+
+.add-btn, .minus-btn {
+  padding: 0px 3px;
+  width: 24px;
+  height: 24px;
+  font-weight: 500;
+  border-radius: 4px;
+  background-color: #1b6cc9;
+}
+.minus-btn{
+  border-radius: 50%;
+  background-color: #f6b142;
+}
+.add-btn .MuiSvgIcon-root, .minus-btn .MuiSvgIcon-root{
+  margin-right: 0;
+  font-size: 18px;
+  color: #ffffff;
+}
+.view-pod-btn.btn{
+  /* max-width: 102px; */
+  height: 31px;
+  font-size: 12px;
+  padding: 0px 10px;
+}
+.btn.view-pod-btn svg{
+  margin-right: 5px;
+  font-size: 18px;
+}
+.file-upload-wrap .file-upload-btn,
+.file-upload-wrap .file-upload-btn:hover{
+  width: 112px;
+  height: 26px;
+  border-radius: 3px;
+  background: #fff;
+  border: 1px solid #f7931e;
+  font-size: 11px;
+  color: #f7931e;
+  box-shadow: none;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+.btn.sml-btn{
+  border-radius: 50px;
+  min-width: 72px;
+  font-size: 11px;
+  height: 27px;
+}
+.btn.sml-btn svg {
+  margin-right: 5px;
+  font-size: 14px;
+}
+.btn-hide {
+  display: none;
+}
+@media screen and (min-width:768px) {
+  .btn img{
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width:767px) {
+  .mobile-create-btn{
+    position: fixed;
+    z-index: 9;
+    bottom: 20px;
+    right: 20px;
+    padding: 0;
+    margin: 0;
+    height: auto !important;
+  }
+  .btn.view-pod-btn svg{
+    margin-right: 0px;
+  }
+}

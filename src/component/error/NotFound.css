@@ -1,0 +1,50 @@
+.not-found{
+    max-width: 460px;
+    width: 100%;
+    height: 87vh;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+.ContWrap{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    padding: 20px;
+    margin: auto;
+    display: table;
+}
+.not-found .content{
+    max-width: 300px;
+    width: 100%;
+    margin: 20px auto;
+}
+.not-found .content h4{
+    font-size: 20px;
+    color: #768A9E;
+}
+.not-found .content p{
+    font-size: 14px;
+    color: #768A9E;
+    opacity: 0.75;
+}
+
+/* data not found */
+.data-not-found{
+    height: auto;
+}
+.data-not-found .ContWrap{
+    position: relative;
+    padding: 0;
+}
+
+@media (max-width: 767px){
+  
+    .not-found{
+        height: auto;
+    }
+
+}
+

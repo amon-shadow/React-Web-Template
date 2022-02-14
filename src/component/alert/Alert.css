@@ -1,0 +1,19 @@
+.snackbar-wrapper .MuiSnackbarContent-root{
+    background: #f7931e;
+    background: linear-gradient(to right, #f7931e, #de5811);
+}
+.snackbar-wrapper .MuiSnackbarContent-message{
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.snackbar-wrapper .MuiSnackbarContent-action{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+}
